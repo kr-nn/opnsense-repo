@@ -31,7 +31,7 @@ Result:
 
 ## Installation
 
-Add this repo to your firewall:
+- Add this repo to your firewall:
 `/usr/local/etc/pkg/repos/unboundviews.conf`
 ```
 UnboundViews: {
@@ -41,6 +41,24 @@ UnboundViews: {
   priority: 5,
   enabled: yes
 }
+```
+- Install public key:
+`/usr/local/etc/pkg/keys/unboundview-repo.pub`
+```
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAjVCV4NPZMpefWOoBhhtO
+8xyOgTE6nrVx+J9kDR1bFZRAho34NHgl8bxF8ozKHkiC3gJ04JmMdCCp9rlKpJSm
+vKH7IrPlptnPLAqskkj561sQYwiXfgNDc7YzjpqyAHI+putWk+5zwVdFP0t1hvP9
+qjpzkYtphYwbLF5IjysmgzFCPTHxdU+TVv3Ez84ydhVdA0vI+aduXCtW5xp+z05K
+ZbzjXOP3GABZRZRH3r6X65wak032zzV2tGw7gVhfMvslOFGPbKHuVpBvpuT/oQj7
+YVe6kF6S9GbnejoXHBm1NMcHpf6G19N6RejZKR4FypNE47ij/W5IOtJqEh/huBzy
+ME7wDl34ZSinVDji0AqbzAaCZmne6QKB21ZDnBq/njEVYiEEZuJF2vo1wF9cTVBY
+oQKRYeUdCvEXU/U5mRCGpx5vHQHtzMDQw2Ia5v4aQihPpsQnJoG+5POVTIipiWwY
+RWWtYT8oOazpbbGpdo+LXNdjTrdkeC4m0Lr0Q2zbi6i97JG0rY1iRqv2fVlUtSq8
+iCL6K48PQuSwoB6e/tZXW74TAUgnFfZDoH+RompAkvSGmnP8fPftN275mbQobVPE
+MJzwrcNsRuMavCCj9W3kTBb4ys4r4Sbts9vWKhkxN+xFwybals1MZ2jVblsmUMS6
+G13lEgDnz4IKpkvpqxPCIN0CAwEAAQ==
+-----END PUBLIC KEY-----
 ```
 
 The package should also appear in:
