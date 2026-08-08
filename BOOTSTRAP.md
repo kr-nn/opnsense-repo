@@ -18,6 +18,14 @@ Copy the repository public key to:
 
 The private key must never be copied to a firewall.
 
+Optional verification on the firewall:
+
+    sha256 -q /usr/local/etc/pkg/keys/unboundviews-repo.pub
+
+Expected fingerprint:
+
+    d563e3b973eae114e31ddb69b78f4580ffe51cc21ae3456e1bc2cccba949b633
+
 ## Install Repository Configuration
 
 Create:
@@ -67,4 +75,3 @@ improvement. It should install only:
 That package creates a chicken-and-egg problem for first install unless it is
 distributed separately, so the file-copy bootstrap above is the simplest first
 step.
-
