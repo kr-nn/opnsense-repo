@@ -1,0 +1,8 @@
+UnboundViews: {
+  url: "https://REPLACE-ME.example/opnsense/${ABI}/26.7/latest",
+  signature_type: "pubkey",
+  pubkey: "/usr/local/etc/pkg/keys/unboundviews-repo.pub",
+  priority: 5,
+  enabled: yes
+}
+
