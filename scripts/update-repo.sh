@@ -38,5 +38,4 @@ if ! find "${PACKAGE_DIR}" -type f -name '*.pkg' | grep -q .; then
     exit 1
 fi
 
-pkg repo "${REPO_DIR}" "rsa:${REPO_KEY}"
-
+pkg repo "${REPO_DIR}" "${REPO_KEY}"
